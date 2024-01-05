@@ -18,7 +18,6 @@ Example:
 
 ```
 ls -l
-
 ```
 
 Example:
@@ -45,7 +44,7 @@ Example
 
 ![](/readme_img/4.png)
 
-1e. - Follow Vite's typical instructions
+1e. Follow Vite's typical instructions
 
 ![](/readme_img/4a.png)
 
@@ -62,7 +61,6 @@ Example: I used cd react_dev_in_alpine
 
 ```
 ls -l
-
 ```
 
 1h. VERY IMPORTANT, don't forget to do npm i, to install all the dependencies and have a Vite/React project in Alpine.
@@ -80,6 +78,8 @@ Example:
 ---
 
 ### 2. IN ANOTHER TERMINAL, IN THE FOLDER OF YOUR PROJECT, COPY THE CONTENT OF THE VITE PROJECT OF THE FIRST CONTAINER
+
+(The example for Step 2 is below all together)
 
 2a. To copy, we need the name or ID of the created NODE container with the React-Vite app inside. To find the ID or the name of the created node container, use:
 
