@@ -160,6 +160,14 @@ Example:
 
 ![](/readme_img/8.png)
 
+If you have problems with the relativ ${pwd}:/name_your_project, use the absolute_path_of_the_name_your_project. Also
+
+```
+docker run -d -p new_port_you_want:port_in_dockerfile -v absolute_path_of_the_name_your_project name_of_the_image
+
+```
+
+
 3c. Now when you change something in your code in your React project in the IDE and save, you will see the changes in the port you used for your container. In the example here, the 9009
 
 Example:
