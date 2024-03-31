@@ -142,7 +142,7 @@ CMD ["npm","run", "dev", "--", "--host"]
 3a. Now you can create a new image of this project. Give the name you want to the image and don't forget the `.` at the end
 
 ```
-docker -t name_of_the_image .
+docker build -t name_of_the_image .
 ```
 
 Example:
