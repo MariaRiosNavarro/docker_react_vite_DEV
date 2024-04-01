@@ -163,7 +163,7 @@ Example:
 If you have problems with the relativ ${pwd}:/name_your_project, use the absolute_path_of_the_name_your_project. Also
 
 ```
-docker run -d -p new_port_you_want:port_in_dockerfile -v absolute_path_of_the_name_your_project name_of_the_image
+docker run -d -p new_port_you_want:port_in_dockerfile -v ABSOLUTE_PATH_YOUR_WORK_APP:PATH_OF_YOUR_IMAGE  --name NAME_TO_YOUR_CONTAINER_you_WANT name_or_ID_of_the_image
 
 ```
 
